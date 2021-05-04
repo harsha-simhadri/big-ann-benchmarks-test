@@ -1,12 +1,9 @@
 ## The Billion-Scale Approximate Nearest Neighbor Search Challenge: NeurIPS 2021 Competition
 
-<detail>
-  <summary> ### What is Approximate Nearest Neighbor Search? </summary>
-  <br>
+### What is Approximate Nearest Neighbor Search?
 Approximate Nearest Neighbor Search (ANNS) is a problem of fundamental importance to search, retrieval, and recommendation. In this problem, we are given a dataset P of points along with a pairwise distance function, typically the d-dimensional Euclidean metric or cosine similarity with d ranging from 50 to 1000. The goal is to design a data structure that, given a target k and a query point q, efficiently retrieves the k nearest neighbors of q in the dataset P according to the given distance function.
 <br>
 The challenge for ANNS algorithm designers is to craft a data structure that enables fast retrieval of the k nearest neighbors even as the database size grows. Several contemporary large-scale ANNS algorithms employ a class of data structure called an index which eliminates the need to compute a pair-wise distance between the search query and every record in the database. It can do this at the expense of a loss of accuracy, which is where the “approximate” term in ANNS comes into play. The trade-off between accuracy and search latency is an important consideration when designing and evaluating ANNS performance.
-</detail>
 
 ### Why this Competition?
 
